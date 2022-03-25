@@ -29,13 +29,13 @@ body {
 }
 .bottom-top {
   width: 90%;
-  height: 37px;
+  height: 2.3125rem;
   margin: auto;
-  margin-top: 120px;
+  margin-top: 7.5rem;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   cursor: pointer;
   flex-direction: column;
   color: darkgray;
@@ -51,7 +51,7 @@ body {
   width: 100%;
   height: 100%;
   color: #6e6c77;
-  margin-left: 9px;
+  margin-left: 0.5625rem;
   transition: 0.4s;
 }
 .bottom-top-top-Dashboad-icon .material-icons-outlined {
@@ -60,7 +60,7 @@ body {
 }
 
 .bottom-top-top-Dashboad-name {
-  margin-left: 13px;
+  margin-left: 0.8125rem;
 }
 
 .bottom-middle {
@@ -73,7 +73,7 @@ body {
 .bottom-middle-heading {
   background: white;
   color: #a7a5b1;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .appPages {
@@ -81,7 +81,7 @@ body {
 }
 .sidebar-options {
   display: flex;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
   justify-content: flex-start;
   background: white;
   align-items: center;
@@ -91,12 +91,12 @@ body {
 
 .email-name {
   background: white;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .sidebar-options-name {
   background: white;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   font-weight: initial;
   font-size: 1.1rem;
   transition: all 0.2 s;
@@ -111,12 +111,12 @@ body {
 /*---------------------------------navbar*/
 .navbar {
   background-color: white;
-  height: 60px;
+  height: 3.75rem;
   width: 80vw;
   margin-left: 18%;
-  margin-top: 12px;
-  margin-right: 10px;
-  border-radius: 5px;
+  margin-top: 0.75rem;
+  margin-right: 0.625rem;
+  border-radius: 0.3125rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -154,7 +154,7 @@ body {
   z-index: 2;
 }
 .sidebar::-webkit-scrollbar {
-  width: 10px;
+  width: 0.625rem;
 }
 
 .sidebar::-webkit-scrollbar-track {
@@ -169,8 +169,8 @@ body {
   background: white;
 }
 .sidebar-top {
-  margin-left: 12px;
-  height: 81px;
+  margin-left: 0.75rem;
+  height: 5.06rem;
   width: 16%;
   display: flex;
   background-color: white;
@@ -180,7 +180,7 @@ body {
   position: fixed;
 }
 .sidebar-top-left {
-  height: 57px;
+  height: 3.56rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,14 +196,14 @@ svg {
 }
 .sidebar-top-left-img {
   background: white;
-  height: 25px;
+  height: 1.56rem;
   display: flex;
   align-items: center;
 }
 .brand-name {
   color: blue;
   background: white;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   display: flex;
   align-items: center;
   font-size: 1.5rem;
@@ -724,8 +724,6 @@ svg {
   background: white;
 }
 
-.inter-team {
-}
 .sidebar-options:hover {
   margin-left: 10px;
 }
@@ -1063,8 +1061,6 @@ svg {
   }
   .mcb-2-left {
     width: 100%;
-    /* margin-left: 20px; */
-    /* margin-top: 18px; */
   }
   .mcb-2-mid {
     margin-top: 18px;
