@@ -111,9 +111,9 @@ body {
   font-size: 1.1rem;
   transition: all 0.4 s;
 }
-.sidebar-options-name:hover {
+/* .sidebar-options-name:hover {
   background: #7e77c7;
-}
+} */
 
 .sidebar-options .material-icons-outlined {
   color: #787a91;
@@ -144,12 +144,12 @@ body {
   align-items: center;
   /* flex-wrap: wrap; */
 }
-.navbar-right .icons{
+/* .navbar-right .icons{
 margin-right:8px;
 justify-content: space-evenly;
 display: flex;
 align-items: center;
-}
+} */
 .material-icons {
   background-color: white;
   cursor: pointer;
@@ -206,13 +206,13 @@ align-items: center;
   background-color: white;
 }
 /* svgs tryiiiiiiiiiiiiiiiiiiiiing */
-svg {
-    overflow: hidden;
+ svg {
+    /* overflow: hidden;
     vertical-align: middle;
     margin-left:2px;
-    margin-right:0.5px;
+    margin-right:0.5px; */
     background-color: #fff;
-}
+} 
 .sidebar-top-left-img {
   background: white;
   height: 1.56rem;
@@ -315,7 +315,7 @@ svg {
 .cong-content {
   min-height: 236px;
   width: 50%;
-  border-radius: 12px;
+  border-radius: 5px;
   background-color: #938af2;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / -20%);
   position: relative;
@@ -333,7 +333,7 @@ svg {
   position: absolute;
   top: 0px;
   right: 0px;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 .cong-content-logo {
   height: 70px;
@@ -382,7 +382,7 @@ svg {
   height: 236px;
   width: 48%;
   background: white;
-  border-radius: 12px;
+  border-radius: 5px;
   margin-left: 20px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 8%), 0 6px 20px 0 rgb(0 0 0 / -10%);
 }
@@ -391,7 +391,7 @@ svg {
   height: 236px;
   width: 50%;
   background: white;
-  border-radius: 12px;
+  border-radius: 5px;
   margin-left: 20px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 8%), 0 6px 20px 0 rgb(0 0 0 / -10%);
 }
@@ -446,16 +446,16 @@ svg {
   height: 100%;
   width: 49.6%;
   background: white;
-  border-radius: 12px;
+  border-radius: 5x;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 8%), 0 6px 20px 0 rgb(0 0 0 / -10%);
 }
 
 .main-content-bottom-1-right {
   height: 100%;
-  width: 49%;
+  width: 49.6%;
   background: white;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / -10%);
 }
 
 .main-content-bottom-1-left-top {
@@ -467,7 +467,7 @@ svg {
 .main-content-bottom-1-left-top-left {
   background: white;
   padding: 20px;
-  border-radius: 12px 0% 0% 0%;
+  border-radius: 5px 0% 0% 0%;
   width: 50%;
   height: 100%;
 }
@@ -475,7 +475,7 @@ svg {
 .main-content-bottom-1-left-top-right {
   /* height: 100%; */
   width: 50%;
-  border-radius: 0% 12px 0% 0%;
+  border-radius: 0% 5px 0% 0%;
   background: white;
 }
 
@@ -630,10 +630,10 @@ svg {
 }
 
 .main-content-bottom-1-right {
-  height: 434px;
+  height: 445px;
   display: flex;
   flex-direction: row;
-  border-radius: 12px;
+  border-radius: 5px;
   background: white;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 8%), 0 6px 20px 0 rgb(0 0 0 / 0%);
   padding-bottom: 22px;
