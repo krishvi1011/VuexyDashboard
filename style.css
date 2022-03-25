@@ -186,7 +186,13 @@ body {
   align-items: center;
   background-color: white;
 }
-
+/* svgs tryiiiiiiiiiiiiiiiiiiiiing */
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left:2px;
+    margin-right:0.5px;
+}
 .sidebar-top-left-img {
   background: white;
   height: 25px;
