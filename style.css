@@ -16,6 +16,15 @@ body {
   background-color: black;
   color: white;
 }
+/* sidebar tasks responsive */
+.black-drop{
+    position: fixed;
+    display:block;
+    background-color: rgba(0 ,0 ,0 ,0.466);
+    height: 100vh;
+    width:100%;
+    z-index:2;
+}
 
 /*--------------------------sidebar*/
 .sidebar-close {
@@ -87,6 +96,7 @@ body {
   align-items: center;
   color: #787a91;
   cursor: pointer;
+  transition: all 0.4s;
 }
 
 .email-name {
@@ -99,7 +109,7 @@ body {
   margin-left: 0.625rem;
   font-weight: initial;
   font-size: 1.1rem;
-  transition: all 0.2 s;
+  transition: all 0.4 s;
 }
 .sidebar-options-name:hover {
   background: #7e77c7;
@@ -134,10 +144,19 @@ body {
   align-items: center;
   /* flex-wrap: wrap; */
 }
+.navbar-right .icons{
+margin-right:8px;
+justify-content: space-evenly;
+display: flex;
+align-items: center;
+}
 .material-icons {
   background-color: white;
   cursor: pointer;
   font-weight: initial;
+}
+.dbutton-white{
+    border-color: white;
 }
 .star {
   color: #ebb434;
@@ -1884,3 +1903,5 @@ svg {
   z-index: 1;
   opacity: 0.5;
 }
+
+
