@@ -265,6 +265,17 @@ align-items: center;
   cursor: pointer;
   background: white;
 }
+   .b-avatar-badge {
+    position: absolute;
+    left: 97%;
+    top: 70%;
+    border-radius: 114px;
+    height: 9px;
+    background: #28C76F;
+    width: 9px;
+    justify-content: center;
+    outline: 1px solid white;
+}
 
 .icons {
   display: flex;
@@ -1171,6 +1182,9 @@ align-items: center;
   .navbar {
     margin: 10px 4vw !important;
     width: 92vw;
+  }
+  .text-bgnd{
+    display: none;
   }
 
   .main-content {
