@@ -150,9 +150,7 @@ body {
   font-size: 1.1rem;
   transition: all 0.4 s;
 }
-/* .sidebar-options-name:hover {
-    background: #7e77c7;
-  } */
+
 
 .sidebar-options .material-icons-outlined {
   color: #787a91;
@@ -224,7 +222,7 @@ body {
   transition: all 0.5s;
   box-shadow: 0 0 15px 0 rgb(34 41 47 / 5%);
   overflow-y: hidden;
-  /* transform: translate3d(-101%,0,0); */
+ 
 }
 .sidebar::-webkit-scrollbar {
   width: 0.625rem;
@@ -265,16 +263,10 @@ body {
   margin-right: 0.425rem;
   background-color: #fff;
 }
-/* svgs tryiiiiiiiiiiiiiiiiiiiiing */
+
+
 svg {
-  /* overflow: hidden;
-      vertical-align: middle;
-      margin-left:2px;
-      margin-right:0.5px; */
-  /* background-color: #fff; */
-}
-svg {
-  /* color: rgb(130, 119, 241); */
+  
   width: 20px;
   height: 20px;
   fill: none;
