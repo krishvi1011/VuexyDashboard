@@ -111,9 +111,7 @@ body {
   font-size: 1.1rem;
   transition: all 0.4 s;
 }
-/* .sidebar-options-name:hover {
-  background: #7e77c7;
-} */
+
 
 .sidebar-options .material-icons-outlined {
   color: #787a91;
@@ -205,7 +203,7 @@ align-items: center;
   align-items: center;
   background-color: white;
 }
-/* svgs tryiiiiiiiiiiiiiiiiiiiiing */
+
  svg {
     /* overflow: hidden;
     vertical-align: middle;
